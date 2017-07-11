@@ -1,0 +1,49 @@
+.contenedor{
+  background-image: url(../img/fondo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contenedor-encabezado{
+  height: 10rem;
+  background: rgba(0, 0, 0, 0.8) fixed;
+}
+.logo{
+  width: 80%;
+  margin-top: 15px;
+  margin-left: 1%;
+  border-radius: 15px;
+}
+.botones-navegacion{
+  margin-top: 15px;
+  border: solid 1px #000000;
+}
+.contenedor-principal{
+  margin-top: 100px;
+}
+.redes-sociales{
+  margin-top: 20%;
+  width: 50%;
+}
+.card-content{
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px !important;
+}
+.acuario{
+  width: 50%;
+  margin: 10px;
+  float: left;
+}
+.flow-text{
+  text-align: justify;
+}
+.autor{
+  width: 50%;
+}
+@media (max-width:599px){
+  .acuario{
+    width: 90%;
+    margin: 10px;
+  }
+}
